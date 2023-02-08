@@ -184,3 +184,25 @@ firstGameContainer.append(topPledge);
 let runnerUp = secondGame.name;
 secondGameContainer.append(runnerUp);
 
+//Search function that return a movie depends on the user input.
+const searchInput = document.getElementById("search-box")
+searchInput.addEventListener("input", (e) => {
+    let value = e.target.value //get the user input value
+    if(value && value.trim().length > 0) {
+       value = value.trim().toLowerCase();
+
+       deleteChildElements(gamesContainer); 
+
+       addGamesToPage(GAMES_JSON.filter(movie => {
+        return movie.name.toLowerCase().includes(value)
+       }))
+
+    } else {
+        deleteChildElements(gamesContainer);
+        addGamesToPage(GAMES_JSON)
+    }
+})
+
+
+
+

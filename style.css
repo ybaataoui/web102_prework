@@ -63,9 +63,12 @@ body {
     border-radius: 7px;
 }
 
+
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+    transform: scale(1.2); /* make element popup in the front on hover*/
+    z-index: 1;
 }
 
 #button-container {
@@ -78,4 +81,10 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+#search-box {
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 30px;
 }
