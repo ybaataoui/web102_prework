@@ -24,7 +24,9 @@ Nothing yet.
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[https://imgur.com/a/TWbZrVA.gif](https://i.imgur.com/HWwiXPr.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+![pre-work](https://user-images.githubusercontent.com/80371588/215918798-bb1debbb-3b72-45aa-a379-a5430451c4f0.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
